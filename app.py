@@ -66,20 +66,6 @@ CLASS_NAMES = [
     'Lukis',
 ]
 
-# --- SIDEBAR ---
-with st.sidebar:
-    st.image("https://cdn-icons-png.flaticon.com/512/3135/3135703.png", width=100) 
-    st.title("Tentang Aplikasi")
-    st.info(
-        "Aplikasi ini menggunakan teknologi *Deep Learning* untuk mendeteksi jenis jajanan tradisional khas Bali. "
-        "Kami menggunakan arsitektur populer: *MobileNetV2*."
-    )
-    st.write("---")
-    st.subheader("📌 Cara Penggunaan:")
-    st.write("1. Upload foto jajanan tradisional khas Bali yang terlihat jelas.")
-    st.write("2. Klik tombol *Mulai Deteksi*.")
-    st.write("3. Lihat hasil klasifikasi.")
-
 # --- HEADER UTAMA ---
 st.markdown("<h1 style='text-align: center;'>Klasifikasi Jenis Jajanan Tradisional Khas Bali</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: gray;'>Sistem Klasifikasi Jenis Jajanan Tradisional Khas Bali dengan Kecerdasan Buatan</p>", unsafe_allow_html=True)
