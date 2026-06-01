@@ -82,7 +82,7 @@ with st.sidebar:
 
 # --- HEADER UTAMA ---
 st.markdown("<h1 style='text-align: center;'>Klasifikasi Jenis Jajanan Tradisional Khas Bali</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: gray;'>Sistem Klasifikasi jenis jajanan tradisional khas Bali</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: gray;'>Sistem Klasifikasi Jenis Jajanan Tradisional Khas Bali dengan Kecerdasan Buatan</p>", unsafe_allow_html=True)
 st.write("---")
 
 # --- KONTEN UTAMA ---
@@ -90,7 +90,7 @@ st.write("---")
 col_upload, col_result = st.columns([1, 2], gap="large")
 
 with col_upload:
-    st.subheader("📤 Upload Gambar")
+    st.subheader("📁 Upload Gambar")
     uploaded_file = st.file_uploader(
         "Format yang didukung: JPG, JPEG, PNG",
         type=["jpg", "jpeg", "png"]
