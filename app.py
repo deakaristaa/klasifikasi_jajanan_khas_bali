@@ -27,8 +27,10 @@ st.markdown("""
         transition: 0.3s;
     }
 
-div.stButton > button:hover {
-    background-color: #98FF98 !important;   /* hijau muda */
+.stButton > button[kind="primary"]:hover,
+.stButton > button[kind="secondary"]:hover,
+.stButton > button:hover {
+    background-color: #98FF98 !important;  /* hijau muda */
     border-color: #98FF98 !important;
     color: white !important;
 }
