@@ -16,27 +16,29 @@ st.set_page_config(
 # Menambahkan sedikit gaya agar tombol dan kontainer terlihat lebih modern
 st.markdown("""
     <style>
-    div.stButton > button:first-child {
-        background-color: #6a1b9a;
-        color: white;
-        border-radius: 10px;
-        padding: 10px 24px;
-        font-size: 18px;
-        font-weight: bold;
-        width: 100%;
-        transition: 0.3s;
-    }
-
-div.stButton > button:first-child:hover {
-    background-color: #98FF985;
-    border-color: #98FF985;
-    color: white;
+   div.stButton > button {
+    background-color: #28a745 !important;   /* hijau */
+    color: white !important;
+    border: 1px solid #28a745 !important;
+    border-radius: 10px;
+    padding: 10px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    transition: 0.3s;
 }
-    .model-title {
-        text-align: center;
-        color: #28a745;
-        font-weight: 800;
-    }
+
+div.stButton > button:hover {
+    background-color: #98FF98 !important;   /* hijau muda */
+    border-color: #98FF98 !important;
+    color: white !important;
+}
+
+.model-title {
+    text-align: center;
+    color: #28a745;
+    font-weight: 800;
+}
     </style>
 """, unsafe_allow_html=True)
 
