@@ -26,16 +26,11 @@ st.markdown("""
         width: 100%;
         transition: 0.3s;
     }
-div.stButton > button:first-child:hover {
-    background-color: #98FF98;
-    border-color: #98FF98;
-    color: white;
-}
 
-/* (opsional) saat diklik */
-div.stButton > button:first-child:active {
-    background-color: #28a745;
-    border-color: #28a745;
+div.stButton > button:hover {
+    background-color: #98FF98 !important;   /* hijau muda */
+    border-color: #98FF98 !important;
+    color: white !important;
 }
     </style>
 """, unsafe_allow_html=True)
