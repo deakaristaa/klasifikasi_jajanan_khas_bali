@@ -26,21 +26,17 @@ st.markdown("""
         width: 100%;
         transition: 0.3s;
     }
-  div.stButton > button:first-child {
-    background-color: #28a745;
+div.stButton > button:first-child:hover {
+    background-color: #98FF98;
+    border-color: #98FF98;
     color: white;
 }
 
-div.stButton > button:first-child:hover {
-    background-color: #98FF985;
-    border-color: #98FF985;
-    color: white;
+/* (opsional) saat diklik */
+div.stButton > button:first-child:active {
+    background-color: #7CFC7C;
+    border-color: #7CFC7C;
 }
-    .model-title {
-        text-align: center;
-        color: #28a745;
-        font-weight: 800;
-    }
     </style>
 """, unsafe_allow_html=True)
 
@@ -84,7 +80,7 @@ with st.sidebar:
 
 # --- HEADER UTAMA ---
 st.markdown("<h1 style='text-align: center;'>Klasifikasi Jenis Jajanan Tradisional Khas Bali</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: gray;'>Identifikasi jenis jajanan tradisional khas Bali dengan mudah menggunakan kecerdasan buatan</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: gray;'>Sistem Klasifikasi jenis jajanan tradisional khas Bali</p>", unsafe_allow_html=True)
 st.write("---")
 
 # --- KONTEN UTAMA ---
@@ -103,7 +99,7 @@ with col_upload:
         # Show gambar gambar 
         st.image(image, caption="Preview Gambar Jajanan", use_container_width=True)
         
-        run_detection = st.button("🔍 Mulai Deteksi")
+        run_detection = st.button("Mulai Deteksi")
     else:
         run_detection = False
         st.warning("Silakan upload gambar jajan tradisional khas Bali terlebih dahulu.")
