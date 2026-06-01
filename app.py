@@ -34,8 +34,8 @@ div.stButton > button:first-child:hover {
 
 /* (opsional) saat diklik */
 div.stButton > button:first-child:active {
-    background-color: #7CFC7C;
-    border-color: #7CFC7C;
+    background-color: #28a745;
+    border-color: #28a745;
 }
     </style>
 """, unsafe_allow_html=True)
