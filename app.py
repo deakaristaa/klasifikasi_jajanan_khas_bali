@@ -7,7 +7,7 @@ from PIL import Image
 # Mengubah layout ke "wide" agar perbandingan 2 model lebih leluasa di layar
 st.set_page_config(
     page_title="Klasifikasi Jajanan Tradisional Khas Bali",
-    page_icon="",
+    page_icon="🥮",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -57,7 +57,7 @@ CLASS_NAMES = [
     'Cerorot',
     'Jajan Begina',
     'Jajan Matahari',
-    'Jajan Non-Bai',
+    'Jajan Non-Bali',
     'Jajan Reta',
     'Jajan Satuh',
     'Jajan Sirat',
