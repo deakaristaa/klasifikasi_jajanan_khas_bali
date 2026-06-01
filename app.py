@@ -27,13 +27,16 @@ st.markdown("""
         transition: 0.3s;
     }
 
-.stButton > button[kind="primary"]:hover,
-.stButton > button[kind="secondary"]:hover,
-.stButton > button:hover {
-    background-color: #98FF98 !important;  /* hijau muda */
-    border-color: #98FF98 !important;
-    color: white !important;
+div.stButton > button:first-child:hover {
+    background-color: #98FF985;
+    border-color: #98FF985;
+    color: white;
 }
+    .model-title {
+        text-align: center;
+        color: #28a745;
+        font-weight: 800;
+    }
     </style>
 """, unsafe_allow_html=True)
 
